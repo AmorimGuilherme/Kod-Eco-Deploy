@@ -89,6 +89,7 @@ function CadastroUsuario() {
                             <TextField value={user.usuario} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id="usuario" label='Usuario' variant='outlined' name='usuario' margin='normal' fullWidth />
                             <TextField value={user.senha} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id="senha" label='Senha' variant='outlined' name='senha' margin='normal' type='password' fullWidth />
                             <TextField value={confirmarSenha} onChange={(e: ChangeEvent<HTMLInputElement>) => confirmarSenhaHandle(e)} id="confirmarSenha" label='Confirmar Senha' variant='outlined' name='confirmarSenha' type='password' margin='normal' fullWidth />
+                            <TextField value={user.foto} onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} id="foto" label='foto' variant='outlined' name='foto' margin='normal'fullWidth />
 
                             <Box className='btn-cad' >
                                 <Button variant='contained' color='primary' className='btnCadastrar' type='submit'>
@@ -100,7 +101,6 @@ function CadastroUsuario() {
                                         Cancelar
                                     </Button>
                                 </Link>
-
                             </Box>
                         </form>
                     </Box>
