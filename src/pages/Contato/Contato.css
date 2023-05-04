@@ -1,0 +1,71 @@
+@import url('http://fonts.cdnfonts.com/css/kirsty-2');
+
+.contato{
+    background-image: url('src/assets/img/background.jpg');
+    background-repeat: no-repeat;
+    width: auto;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Kirsty', sans-serif !important;
+}
+
+.all{
+     margin-top: 5px;
+}
+
+.text{
+    text-shadow: black 1px 1px;
+}
+
+.cardForm{ 
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: rgba(184, 233, 134, 0.25);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 8px;
+}
+
+.but[type="button"]:active,
+    [type="submit"]:hover{
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 0.5px solid transparent;
+}
+
+.but[type="submit"]:hover,
+    [type="submit"]:focus {
+    background: #3C8404;
+    cursor: pointer;
+    
+    
+}
+
+.but {
+    background: #285B00;
+    border: 0.5px white;
+    display: block;
+    appearance: none;
+    border-radius: 4px;
+    width: 100%;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.info {
+    color: #F2F2F2 !important;
+    text-shadow: black 1px 1px;
+    font-family: 'Kirsty', sans-serif !important;
+    font-size: 14px !important;
+    padding: 10px;
+    
+}

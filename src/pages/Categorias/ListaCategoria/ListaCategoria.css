@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/tt-drugs-trial?styles=152888%27');
+
+
+
+body {
+  background-color: #809c91 !important;
+}
+
+
+.text-decorator-none {
+  text-decoration: none;
+}
+
+
+.container-listcateg,
+.container-listprod {
+
+  padding-top: 3% !important;
+
+}
+
+.card-categ,
+.card-prod {
+  width: 250px !important;
+  height: auto !important;
+  border-radius:20px !important;
+  background: rgb(217, 208, 176) !important;
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+
+.button-delcateg,
+.button-delprod {
+  background-color: #cd7742 !important;
+}
+
+.button-atucateg,
+.button-atudelprod {
+  background-color: #cda56d !important;
+}
+
+.fonte {
+  font-family: 'TT Drugs Trial', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+.desc{
+  font-family: 'TT Drugs Trial', sans-serif !important;
+  font-size: 14px !important;
+}

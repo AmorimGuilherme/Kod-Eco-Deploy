@@ -1,0 +1,32 @@
+.form-pesquisar {
+    display: flex;
+    justify-content: space-evenly !important;
+    
+
+  }
+  
+  .input-pesquisar{
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    width: 500px;
+    background-color: ghostwhite;
+    font-family: 'TT Drugs Trial', sans-serif;
+
+    
+  }
+  
+  .pesquisar {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    outline: none;
+    background-color: #cfad7dff !important;    
+    color:saddlebrown!important;
+    font-family: 'TT Drugs Trial', sans-serif;
+   
+  }
+  

@@ -1,0 +1,81 @@
+@import url('http://fonts.cdnfonts.com/css/kirsty-2');
+
+
+.cont-login {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.imgur.com/XC9uBnj.jpg');
+}
+
+.card {
+    width: 400px;
+    height: 45vh;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: rgba(184, 233, 134, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+.card-title {
+
+    color: #F2F2F2;
+    text-shadow: black 1px 1px;
+    font-family: 'Kirsty', sans-serif !important;
+    font-size: 50px !important;
+}
+
+
+label {
+    font-style: italic;
+    color: white !important;
+    font-size: 14px !important;
+}
+
+.form-login {
+    width: 300px;
+    height: 500px;
+    justify-content: center;    
+   
+}
+
+.text1 {
+
+    font-family: 'Kirsty', sans-serif !important;
+    color: #F2F2F2 !important;
+    font-size: 20px !important;
+}
+
+.btnCadastro {
+
+    color: #F2F2F2;
+    font-family: 'Kirsty', sans-serif !important;
+
+
+
+}
+
+.form-input {
+    width: 100%;
+    color: #262626;
+
+}
+
+.form-btn {
+    background-color: #2E5902 !important;
+    color: #F2F2F2 !important;
+    justify-content: center !important;
+    display: flex !important;
+    font-family: 'Kirsty', sans-serif !important;
+    font-size: 20px !important;
+
+}

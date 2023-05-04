@@ -1,0 +1,30 @@
+@import url('https://fonts.cdnfonts.com/css/kaftus');
+@import url('https://fonts.cdnfonts.com/css/tt-drugs-trial?styles=152900');
+
+
+.titulo {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Kaftus', sans-serif !important;
+}
+
+.botao {
+    border-color: white;
+    background-color: #285B00;
+    color: white;
+}
+
+
+.titulo2 {
+
+    font-style: italic;
+    color: white;
+    font-size: 25px !important;
+    font-family: 'TT Drugs Trl Cnd', sans-serif !important;
+
+}
+
+.caixa-titulo-home{
+    padding-top: 2% !important;
+}
