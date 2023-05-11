@@ -150,7 +150,7 @@ function CadastroCategoria() {
           value={categoria.tipo}
           onChange={(e: ChangeEvent<HTMLInputElement>) => updatedCategoria(e)}
           id="tipo"
-          label="tipo"
+          label="Tipo"
           variant="outlined"
           name="tipo"
           margin="normal"
@@ -160,7 +160,7 @@ function CadastroCategoria() {
           value={categoria.descricao}
           onChange={(e: ChangeEvent<HTMLInputElement>) => updatedCategoria(e)}
           id="descricao"
-          label="descricao"
+          label="Descricao"
           variant="outlined"
           name="descricao"
           margin="normal"

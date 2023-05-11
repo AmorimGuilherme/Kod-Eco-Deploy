@@ -21,7 +21,7 @@
 .cardProductInfo{
     display: flex;
     flex-direction: column;
-
+    color: black !important;
     margin-left: 50px;
     width: 250px;
 }
@@ -52,4 +52,12 @@
     background: #d9d0b0a8;
     box-shadow: inset 0px 0px 0px 0px #F0F0F0;
     
+    }
+
+    .quantidadeInput input {
+        color: black !important;
+    }
+
+    .quantidadeLabel {
+        color: black !important;
     }

@@ -28,3 +28,32 @@
 .caixa-titulo-home{
     padding-top: 2% !important;
 }
+
+.botao-voltar-topo {
+    position: fixed;
+    bottom: 3vh;
+    right: 3vh;
+    width: 5vh;
+    height: 5vh;
+    font-size: 2.5vh;
+    background-color: #8bc34a; 
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .botao-voltar-topo:hover {
+    background-color: #7cb342; 
+  }
+  
+  .botao-voltar-topo::before {
+    content: "\2191";
+  }
+  
+  
